@@ -1,0 +1,21 @@
+[project]
+name = "mytranslator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+"spacy==3.7.4",
+"torch==2.2.2",
+#"fairseq2~=0.2.1",
+"scipy==1.13.1",
+"aiofiles",
+
+"wheel",
+"sip",
+"mtranslate",
+"pyqt5",
+"PyQt5-sip",
+"pymupdf",
+
+]

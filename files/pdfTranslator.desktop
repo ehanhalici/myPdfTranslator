@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PdfTranslator
+Comment=PDF Reader with translator extension
+Exec=PdfTranslator %f
+Icon=PdfTranslator
+Categories= Office;
+Terminal=false
+StartupNotify=false

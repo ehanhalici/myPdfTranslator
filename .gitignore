@@ -1,0 +1,9 @@
+__pycache__/
+quickmt-en-tr/
+.venv/
+dictionary.txt
+dictionary-json.zip
+dictionary_json.py
+en_core_web_trf-3.7.3-py3-none-any.whl
+test_2.py
+to_db.py

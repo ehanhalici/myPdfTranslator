@@ -1,6 +1,6 @@
 # Install
 
-uv sync
+uv sync <br>
 python -m spacy download en_core_web_trf
 
 # demo

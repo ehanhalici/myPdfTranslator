@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+"quickmt",
 "spacy==3.7.4",
 "torch==2.2.2",
 #"fairseq2~=0.2.1",
@@ -17,5 +18,11 @@ dependencies = [
 "pyqt5",
 "PyQt5-sip",
 "pymupdf",
+"numpy<2.0.0"
 
 ]
+
+# uv'ye özel ayarlar buraya gelir
+[tool.uv.sources]
+# quickmt paketinin kaynağının lokal bir klasör olduğunu belirtiyoruz
+quickmt = { path = "./quickmt", editable = true }

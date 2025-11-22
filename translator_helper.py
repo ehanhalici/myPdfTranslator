@@ -1,6 +1,6 @@
 from typing import Optional
 
-from quickmt import Translator
+from quickmt.quickmt import Translator
 import spacy
 import json
 import asyncio

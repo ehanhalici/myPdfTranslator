@@ -3,6 +3,9 @@
 let
   libs = [
     pkgs.gcc.cc.lib
+    pkgs.zlib 
+    pkgs.stdenv.cc.cc.lib
+
   ];
 in
 pkgs.mkShell {
@@ -26,5 +29,6 @@ pkgs.mkShell {
 
     echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH" >> .venv/bin/activate
     echo "export QT_QPA_PLATFORM_PLUGIN_PATH=$QT_QPA_PLATFORM_PLUGIN_PATH" >> .venv/bin/activate
+    source .venv/bin/activate                                                  
   '';
 }

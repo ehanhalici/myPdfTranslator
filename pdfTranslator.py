@@ -818,6 +818,10 @@ class Window(QMainWindow, Ui_window):
         # return QMainWindow.closeEvent(self, ev)
 
     def on_quit(self):
+        self.thread1.quit()
+        self.thread2.quit()
+        self.thread3.quit()
+        
         return QMainWindow.closeEvent(self, QCloseEvent())
 
 
